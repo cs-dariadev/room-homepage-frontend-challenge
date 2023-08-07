@@ -14,10 +14,15 @@
     <section class="main__hero">
 
       <nav class="main__nav container">
-        <img src="./images/icon-hamburger.svg" alt="hamburger menu icon" class="main__hamburger">
-
+        <a href="#menu" class="menu__open">
+          <img src="./images/icon-hamburger.svg" alt="hamburger menu icon" class="main__hamburger">
+        </a>
+        <a href="#" class="menu__close">
+          <img src="./images/icon-close.svg" alt="close menu icon" class="nav__close">
+        </a>
         <img src="./images/logo.svg" alt="brand logo" class="main__logo">
-        <ul class="main__links">
+
+        <ul class="main__links" id="menu">
           <li class="main__list">
             <a href="#" class="main__link">Home</a>
           </li>
